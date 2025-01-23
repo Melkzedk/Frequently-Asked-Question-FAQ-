@@ -12,8 +12,8 @@ const FaqList = ({ faqs }) => {
         <div>
           <p>No FAQs found. Contact ICT</p>
           <p>
-            Extension Numbers: Melkzedek 235, Moses 139, Shirley 176, and Thomas
-            162
+            Extension Numbers: <b>Melkzedek 235</b>, <b>Moses 139</b>, <b>Shirley 176</b>, and <b>Thomas
+            162</b>
           </p>
         </div>
       )}

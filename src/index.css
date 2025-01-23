@@ -46,46 +46,34 @@ body {
   margin: 10px 0 0;
   color: #555;
 }
-/* Footer Styling */
+/* Footer Styles */
 .footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #f1f1f1;
   padding: 20px 0;
-  text-align: center;
-  font-family: Arial, sans-serif;
+  border-top: 1px solid #ddd;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
+.footer-content {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Add space between logo and text */
+  max-width: 1200px; /* Limit width for large screens */
+  margin: 0 auto; /* Center content within the footer */
 }
 
-.footer-section {
-  margin: 10px 0;
-  text-align: left;
-  min-width: 200px;
+.footer-logo {
+  width: 120px; /* Adjust the size of the logo */
+  height: auto;
 }
 
-.footer-section a {
-  color: #00aaff;
-  text-decoration: none;
-}
-
-.footer-section a:hover {
-  text-decoration: underline;
-}
-
-.footer-name {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.footer-bottom {
-  margin-top: 20px;
+.footer-text {
+  text-align: left; /* Align text to the left */
   font-size: 14px;
-  color: #ccc;
+  color: #333;
 }
+
+.footer-text p {
+  margin: 5px 0;
+}
+
